@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Libreria de iconos: https://ionic.io/ionicons/usage -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="img/favicon.png">
+    <title>Landing Page Urtzi Ugarte</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="index.html" class="logo">Urtzi Ugarte Pampin</a>
+            <ul class="navbar">
+                <li>
+                    <a href="sobremi.html">Quién soy</a>
+                </li>
+                <li>
+                    <a href="cv.html">CV</a>
+                </li>
+                <li>
+                    <a href="projectos.html">Projectos destacados</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <div class="tituloBox">
+                <h3>Contacta conmigo</h3>
+                <form name="formulario" action="mailto:urtziugartte@gmail.com" method="post">
+
+                    <fieldset>
+                        <legend class="legend">DATOS PERSONALES</legend>
+                        <div class="padding">
+                            <label for="nombre">Nombre: </label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="padding">
+                            <label for="apellidos">Apellidos: </label>
+                            <input type="text" name="apellidos" id="apellidos">
+                        </div>
+                        <div class="padding">
+                            <label for="direccion postal">Dirección Postal: </label>
+                        </div>
+                        <div class="padding">
+                            <input type="text" placeholder="Calle">
+                            <input type="text" placeholder="Nº">
+                            <input type="text" placeholder="Piso">
+                            <input type="text" placeholder="Cod.Postal">
+                            <input type="text" placeholder="Ciudad">
+                        </div>
+                        <div class="padding">
+                            <label for="nick">Empresa: </label>
+                            <input type="text" name="empresa" id="empresa">
+                        </div>
+                        <div class="padding">
+                            <label for="correo electronico">Correo electrónico: </label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="padding">
+                            <legend class="legend">COMENTARIOS</legend>
+                            <textarea name="textarea" id="textarea"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="padding">
+                        <input class="submit" type="submit" value="Enviar">
+                        <input class="submit" type="reset" value="Borrar">
+                    </div>
+                </form>
+            </div>
+            <div class="imgBox">
+                <img src="img/freepik__background__724.png" alt="foto">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;Web personal de Urtzi Ugarte</p>
+        </div>
+        <ul class="redesSociales">
+            <li>
+                <a href="https://www.linkedin.com/in/urtzi-ugarte-pampin-aa4120218/" target="_self"><ion-icon
+                        name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/UrtziUgarte"><ion-icon name="logo-github" target="_self"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
